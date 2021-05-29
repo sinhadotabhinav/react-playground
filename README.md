@@ -1,5 +1,5 @@
 # react-playground
-v
+
 ## unused files:
 
 setupTests.js
