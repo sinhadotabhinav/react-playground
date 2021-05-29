@@ -1,6 +1,6 @@
-# sinhabhinav-dev
+# react-playground
+v
 ## unused files:
 
-logo.svg
 setupTests.js
 App.test.js
