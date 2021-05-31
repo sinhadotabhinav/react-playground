@@ -1,10 +1,10 @@
-import logo from './logo.svg';
 import './App.css';
-import Header from './components/Header'
-import Tasks from './components/Tasks'
-import AddTask from './components/AddTask'
-import Footer from './components/Footer'
-import About from './components/About'
+import About from './components/About/About'
+import AddTask from './components/AddTask/AddTask'
+import Header from './components/Header/Header'
+import Footer from './components/Footer/Footer'
+import Tasks from './components/Tasks/Tasks'
+import logo from './logo.svg';
 // using react state across multiple components
 import { useState, useEffect } from 'react'
 import { BrowserRouter as Router, Route } from 'react-router-dom'

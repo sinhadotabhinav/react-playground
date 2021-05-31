@@ -1,4 +1,5 @@
-import Task from './Task'
+import Task from '../Task/Task'
+
 const Tasks = ({ tasks, onDelete, onToggle }) => {
     return (
         // setTasks func can be used to edit state value

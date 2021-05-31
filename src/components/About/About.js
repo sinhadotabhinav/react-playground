@@ -7,7 +7,7 @@ const About = () => {
             {/* to stop pages from reloading when routing use <Link />
             from react-router-dom instead of <a> tags */}
             {/* <a href='/'>Home</a> */}
-            <Link to='/'>Home</Link>
+            <Link id='home-link' to='/'>Home</Link>
         </div>
     )
 }

@@ -1,6 +1,6 @@
+import Button from "../Button/Button";
 import PropTypes from 'prop-types'
 import { useLocation } from 'react-router-dom'
-import Button from "./Button";
 
 const headerStyle = {
     color: 'black',

@@ -29,8 +29,9 @@ const AddTask = ({ onAdd }) => {
     return (
         <form className='add-form' onSubmit={onSubmit}>
             <div className='form-control'>
-                <label>Task</label>
+                <label htmlFor='task-input'>Task</label>
                 <input 
+                    id='task-input'
                     type='text'
                     placeholder='Add Task'
                     value={text}
@@ -38,8 +39,9 @@ const AddTask = ({ onAdd }) => {
                 />
             </div>
             <div className='form-control'>
-                <label>Day and Time</label>
+                <label htmlFor='day-time-input'>Day and Time</label>
                 <input 
+                    id='day-time-input'
                     type='text'
                     placeholder='Add Day and Time'
                     value={day}
@@ -47,15 +49,15 @@ const AddTask = ({ onAdd }) => {
                 />
             </div>
             <div className='form-control form-control-check'>
-                <label>Set Reminder</label>
+                <label htmlFor='reminder-input'>Set Reminder</label>
                 <input 
+                    id='reminder-input'
                     type='checkbox'
                     checked={reminder}
                     value={reminder}
                     onChange={(e) => setReminder(e.currentTarget.checked)}
                 />
-            </div>                        
-
+            </div>
             <input className='btn btn-block' type='submit' value='Save Task' />
         </form>
     )
